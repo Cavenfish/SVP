@@ -9,10 +9,11 @@ function printSVP(reac, ts, prod)
 
   n = size(reac.modes)[2]
   N = div(n, 3)
+  c = sqrt(N)
 
-  X = repeat([1.0, 0.0, 0.0], N)
-  Y = repeat([0.0, 1.0, 0.0], N)
-  Z = repeat([0.0, 0.0, 1.0], N)
+  X = repeat([1.0, 0.0, 0.0], N) ./ c
+  Y = repeat([0.0, 1.0, 0.0], N) ./ c
+  Z = repeat([0.0, 0.0, 1.0], N) ./ c
   
   println(io, "Forward Direction")
   println(io, "-----------------")
