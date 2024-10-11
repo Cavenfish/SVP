@@ -2,12 +2,12 @@
 reactant = "re.hess"
 ts = "ts.hess"
 product = "pr.hess"
-surface = (0,9)
-molecule = (9,12)
+surface = (1,3)
+molecule = (4,6)
 
 [Reaction_2]
 reactant = "re.hess"
 ts = "ts.hess"
 product = "pr.hess"
-surface = (0,9)
-molecule = (9,12)
+surface = (1,3)
+molecule = (4,6)
